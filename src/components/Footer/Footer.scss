@@ -1,0 +1,149 @@
+.footer{
+  @media (max-width: 321px) {
+    flex-direction: column;
+  }
+  display: flex;
+  margin-left: -0.2vw;
+  &__title{
+    color: #656566;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+    @media (max-width: 321px) {
+      font-size: 13px;
+      margin-bottom: 2.3vh;
+    }
+  }
+  &__column{
+    @media (max-width: 321px) {
+      margin-top: 3.6vh;
+    }
+    &.about{
+      margin-right: 6.9vw;
+      @media (max-width: 321px) {
+        margin-top: 4.8vh;
+      }
+    }
+    &.contacts{
+      text-align: end;
+      margin-left: auto;
+      margin-right: 1vw;
+      @media (max-width: 321px) {
+        text-align: start;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.messengers{
+  &--footer{
+    margin-bottom: 1.7vh;
+    @media (max-width: 321px) {
+      margin-bottom: 0.7vh;
+    }
+  }
+  &__list{
+    &--footer{
+      display: flex;
+      margin-right: -0.6vw;
+    }
+  }
+  &__item{
+    &--footer{
+      margin-right: 0.6vw;
+      @media (max-width: 321px) {
+        margin-right: 3.9vw;
+      }
+    }
+  }
+  &__picture{
+    &--footer{
+      @media (max-width: 321px) {
+        width: 23px;
+      }
+    }
+  }
+}
+
+.about{
+  &__list{
+    @media (max-width: 321px) {
+      font-size: 14px;
+    }
+    display: flex;
+    flex-direction: column;
+  }
+  &__item{
+    margin-bottom: 1.1vh;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+}
+
+.contacts{
+  &__footer{
+    margin-bottom: 2.1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    @media (max-width: 321px) {
+      align-items: flex-start;
+      margin-bottom: 1vh;
+    }
+  }
+  &__adress{
+    margin-bottom: 7.2vh;
+    @media (max-width: 321px) {
+      font-size: 14px;
+      margin-bottom: 5.7vh;
+    }
+  }
+}
+
+.menu{
+  &__list{
+    display: flex;
+  }
+  &__column{
+    margin-right: 3.7vw;
+    @media (max-width: 321px) {
+      flex: 1;
+      margin-right: 2vw;
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+  &__item{
+    margin-bottom: 1.1vh;
+    @media (max-width: 321px) {
+      width: 80%;
+      font-size: 14px;
+      margin-bottom: 1.25vh;
+    }
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+}
+
+.privacy-policy{
+  text-decoration: underline;
+}
+
+.rights-reserved{
+  margin-bottom: 0.7vh;
+  @media (max-width: 321px) {
+    margin-bottom: 0.9vh;
+  }
+}
+
+.privacy-window{
+  font-size: 12px;
+  font-family: var(--family-montserrat);
+  font-weight: 400;
+}

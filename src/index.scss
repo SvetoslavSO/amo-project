@@ -1,0 +1,39 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Montserrat:wght@300;400&display=swap');
+
+
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  --family-montserrat: 'Montserrat', sans-serif;
+  --family-inter: 'Inter', sans-serif;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #E4E5EA;
+}
+
+body {
+  margin: 0;
+  color: #E4E5EA;
+  font-family: var(--family-inter);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0E1014;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

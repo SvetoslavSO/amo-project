@@ -1,0 +1,99 @@
+.row{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.81vh;
+  @media (max-width: 321px) {
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  &.mobile{
+    @media (max-width: 321px) {
+      display: none;
+    }
+  }
+}
+
+.header{
+  margin-top: 5.8vh;
+  margin-bottom: 9.7vh;
+  &__description{
+    width: 12%;
+    font-family: var(--family-montserrat);
+    font-weight: 300;
+    font-size: 10px;
+    color: #E4E5EA;
+  }
+  @media (max-width: 321px) {
+    margin-top: 2.5vh;
+    margin-bottom: 2vh;
+    width: 100%;
+  }
+}
+
+.logo{
+  margin-right: 3.6vw;
+  @media (max-width: 321px) {
+    display: none;
+  }
+}
+
+.navigation{
+  &.mobile{
+    @media (min-width: 321px) {
+      display: none;
+    }
+  }
+  &.desktop{
+    @media (max-width: 321px) {
+      display: none;
+    }
+  }
+  &__list{
+    list-style: none;
+    display: flex;
+    margin-right: 9.77vw;
+    @media (max-width: 321px) {
+      font-size: 12px;
+      text-transform: uppercase;
+      margin-right: 0;
+    }
+  }
+  &__item{
+    font-weight: 400;
+    margin-right: 2.18vw;
+    &:last-child{
+      margin-right: 0;
+    }
+    @media (max-width: 321px) {
+      margin-right: 5.5vw;
+    }
+  }
+}
+
+.contacts{
+  &__header{
+    margin-right: 3.32vw;
+    @media (max-width: 321px) {
+      display: none;
+    }
+  }
+  &__link{
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+
+.messengers{
+  @media (max-width: 321px) {
+    display: none;
+  }
+  &__list{
+    display: flex;
+  }
+  &__item{
+    margin-right: 2vw;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
