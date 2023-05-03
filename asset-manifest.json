@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/amo-project/static/css/main.f68e7651.css",
+    "main.js": "/amo-project/static/js/main.b9a0a584.js",
+    "static/js/787.bdba86c2.chunk.js": "/amo-project/static/js/787.bdba86c2.chunk.js",
+    "static/media/logo.svg": "/amo-project/static/media/logo.2e08d1bd108cb8b2aee116b1817d851e.svg",
+    "static/media/whatsapp.svg": "/amo-project/static/media/whatsapp.ebe720f0c912eda28e2bf0613c18300f.svg",
+    "static/media/viber.svg": "/amo-project/static/media/viber.efdbe6bd3950a854df10750809a40828.svg",
+    "static/media/purple_ball.svg": "/amo-project/static/media/purple_ball.5183c75bdfdc477e9148312d22bdcf94.svg",
+    "static/media/red_ball.svg": "/amo-project/static/media/red_ball.d0944b6e50e80d4994d492177a6b660c.svg",
+    "index.html": "/amo-project/index.html",
+    "static/media/telegram.svg": "/amo-project/static/media/telegram.40ecd015eebebbe71b5bd0354d54208e.svg",
+    "main.f68e7651.css.map": "/amo-project/static/css/main.f68e7651.css.map",
+    "main.b9a0a584.js.map": "/amo-project/static/js/main.b9a0a584.js.map",
+    "787.bdba86c2.chunk.js.map": "/amo-project/static/js/787.bdba86c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f68e7651.css",
+    "static/js/main.b9a0a584.js"
+  ]
+}
