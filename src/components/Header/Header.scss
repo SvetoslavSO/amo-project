@@ -1,7 +1,14 @@
 .row{
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   margin-bottom: 0.81vh;
+  &__left{
+    display: flex;
+  }
+  &__right{
+    display: flex;
+    margin-right: 0.9vw;
+  }
   @media (max-width: 321px) {
     justify-content: center;
     margin-bottom: 0;
@@ -51,7 +58,7 @@
   &__list{
     list-style: none;
     display: flex;
-    margin-right: 9.77vw;
+    // margin-right: 9.77vw;
     @media (max-width: 321px) {
       font-size: 12px;
       text-transform: uppercase;
